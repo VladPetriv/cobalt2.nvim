@@ -7,5 +7,5 @@ local Group = require("cobalt2.utils").Group
 ---------------------------------------------------------------------------------
 Group.new("jsonKeyword", colors.yellow, nil, nil)
 Group.new("jsonEscape", colors.yellow, nil, nil)
-Group.new("jsonNull", colors.dark_pink, nil, styles.italic)
-Group.new("jsonBoolean", colors.dark_pink, nil, styles.italic)
+Group.new("jsonNull", colors.dark_pink, nil, nil)
+Group.new("jsonBoolean", colors.dark_pink, nil, nil)

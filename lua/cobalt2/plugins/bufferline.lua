@@ -6,7 +6,7 @@ local Group = require("cobalt2.utils").Group
 --                                 bufferline                                  --
 ---------------------------------------------------------------------------------
 Group.new("BufferLineFill", colors.light_grey, colors.cursor_line, nil)
-Group.new("BufferLineBackground", colors.dark_blue, nil, styles.italic)
+Group.new("BufferLineBackground", colors.dark_blue, nil, nil)
 Group.new("BufferLineBufferVisible", colors.dark_blue, nil, nil)
 Group.new("BufferLineBufferSelected", colors.yellow, nil, nil)
 Group.new("BufferLineTab", colors.white, nil, nil)

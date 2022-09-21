@@ -5,11 +5,11 @@ local Group = require("cobalt2.utils").Group
 ---------------------------------------------------------------------------------
 --                             nvim-lsp-installer                              --
 ---------------------------------------------------------------------------------
-Group.new("LspInstallerLink", colors.blue, nil, styles.italic + styles.underline)
-Group.new("LspInstallerLabel", colors.blue, nil, styles.italic)
+Group.new("LspInstallerLink", colors.blue, nil, styles.underline)
+Group.new("LspInstallerLabel", colors.blue, nil, nil)
 Group.new("LspInstallerError", colors.red, nil, styles.bold)
 Group.new("LspInstallerHeader", colors.dark_orange, nil, styles.bold)
-Group.new("LspInstallerMuted", colors.light_grey, nil, styles.italic)
+Group.new("LspInstallerMuted", colors.light_grey, nil, nil)
 Group.new("LspInstallerHeading", colors.yellow, nil, styles.bold)
 Group.new("LspInstallerHighlighted", colors.yellow, nil, nil)
 Group.new("LspInstallerServerExpanded", colors.white, nil, nil)
